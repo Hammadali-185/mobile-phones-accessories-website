@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f3efe6">
+  <meta name="description" content="Bona sells new phones, used phones, and accessories. Compare PTA status, battery health, and price, then check out from your phone or a computer.">
+  <title>Bona — Phones & Accessories</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="/">
+  <meta name="robots" content="index, follow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/shared.css">
+  <link rel="stylesheet" href="/css/store.css">
+</head>
+<body data-app="shop">
+  <a class="skip" href="#view">Skip to content</a>
+  <header class="header no-print">
+    <div class="announce"><p id="announce"></p></div>
+    <div class="wrap header-row">
+      <a class="logo" href="/">
+        <span class="mark" aria-hidden="true">B</span>
+        <span id="brand-name">Bona</span>
+      </a>
+      <form class="search" id="header-search" role="search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="M16 16l4 4"/></svg>
+        <label class="sr" for="q">Search the shop</label>
+        <input id="q" name="q" type="search" placeholder="Search phones, brands, accessories…" autocomplete="off">
+      </form>
+      <div class="tools">
+        <button class="icon-btn account-btn" id="account-open" type="button" aria-label="Account">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="8" r="3"/><path d="M5 19c1.4-3 3.8-4.5 7-4.5S17.6 16 19 19"/></svg>
+          <span class="tool-label" id="account-label">Sign in</span>
+        </button>
+        <a class="icon-btn" href="/wishlist" id="wish-link" aria-label="Wishlist">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M12 19s-7-4.4-7-9a4 4 0 0 1 7-2 4 4 0 0 1 7 2c0 4.6-7 9-7 9z"/></svg>
+          <span id="wish-count" class="count" hidden>0</span>
+        </a>
+        <a class="icon-btn" id="wa-link" href="/contact" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M6 16l-2 4 5-2h7a4 4 0 0 0 4-4V8a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v5a3 3 0 0 0 2 3z"/></svg>
+        </a>
+        <button class="icon-btn" id="cart-open" type="button" aria-label="Open cart">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M6 8h12l-1 12H7L6 8z"/><path d="M9 8V7a3 3 0 0 1 6 0v1"/></svg>
+          <span id="cart-count" class="count" hidden>0</span>
+        </button>
+      </div>
+    </div>
+    <div class="wrap mobile-search">
+      <form class="search" id="header-search-mobile" role="search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="M16 16l4 4"/></svg>
+        <label class="sr" for="q-mobile">Search the shop</label>
+        <input id="q-mobile" name="q" type="search" placeholder="Search phones, brands, accessories…" autocomplete="off">
+      </form>
+    </div>
+    <nav class="wrap nav-row" aria-label="Shop">
+      <a href="/" data-nav="/">Home</a>
+      <a href="/products" data-nav="/products">All Products</a>
+      <a href="/categories/mobile-phones" data-nav="/phones">Mobile Phones</a>
+      <a href="/categories/mobile-phones/used" data-nav="/phones/used">Used Phones</a>
+      <a href="/categories/mobile-phones/new" data-nav="/phones/new">New Phones</a>
+      <a href="/categories/accessories" data-nav="/accessories">Accessories</a>
+      <a href="/offers" data-nav="/deals">Deals</a>
+      <a href="/contact" data-nav="/contact">Contact Us</a>
+    </nav>
+  </header>
+
+  <main id="view"></main>
+
+  <footer class="footer no-print">
+    <div class="wrap footer-grid">
+      <div>
+        <a class="logo" href="/"><span class="mark">B</span><span id="footer-name">Bona</span></a>
+        <p style="margin-top:10px">New phones, used phones, and the accessories that fit them. Prices are the ones in the current inventory.</p>
+      </div>
+      <div>
+        <h2>Shop</h2>
+        <nav>
+          <a href="/categories/mobile-phones">Mobile phones</a>
+          <a href="/categories/mobile-phones/new">New phones</a>
+          <a href="/categories/mobile-phones/used">Used phones</a>
+          <a href="/categories/accessories">Accessories</a>
+          <a href="/offers">Deals</a>
+        </nav>
+      </div>
+      <div>
+        <h2>Help</h2>
+        <nav>
+          <a href="/about">About us</a>
+          <a href="/contact">Contact us</a>
+          <a href="/faq">FAQs</a>
+          <a href="/track-order">Track an order</a>
+          <a href="/shipping-policy">Shipping policy</a>
+          <a href="/return-policy">Return and refund</a>
+          <a href="/warranty-policy">Warranty</a>
+          <a href="/privacy-policy">Privacy</a>
+          <a href="/terms-and-conditions">Terms</a>
+        </nav>
+      </div>
+      <div>
+        <h2>Social</h2>
+        <nav id="social"></nav>
+      </div>
+    </div>
+    <div class="wrap fineprint">
+      <span>© <span id="year"></span> <span id="fine-name">Bona</span></span>
+      <span>Prices in Pakistani rupees</span>
+    </div>
+  </footer>
+
+  <div id="overlay" class="overlay" hidden></div>
+  <aside id="drawer" class="drawer no-print" aria-hidden="true" aria-modal="true" aria-labelledby="drawer-title">
+    <div class="drawer-head">
+      <h2 id="drawer-title">Your cart</h2>
+      <button class="icon-btn" id="drawer-close" type="button" aria-label="Close cart">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+    <div class="drawer-body" id="drawer-body"></div>
+    <div class="drawer-foot" id="drawer-foot"></div>
+  </aside>
+
+  <aside id="account" class="drawer no-print" aria-hidden="true" aria-labelledby="account-title">
+    <div class="drawer-head">
+      <h2 id="account-title">Account</h2>
+      <button class="icon-btn" id="account-close" type="button" aria-label="Close account">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+    <div class="drawer-body" id="account-body"></div>
+  </aside>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="/js/core/util.js"></script>
+  <script src="/js/data/seed.js"></script>
+  <script src="/js/core/store.js"></script>
+  <script src="/js/core/paths.js"></script>
+  <script src="/js/core/cart.js"></script>
+  <script src="/js/core/auth.js"></script>
+  <script src="/js/storefront/customer.js"></script>
+  <script src="/js/storefront/app.js"></script>
+</body>
+</html>
